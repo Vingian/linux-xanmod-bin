@@ -1,4 +1,4 @@
-_deb='https://github.com/xanmod/linux/releases/download/5.17.8-xanmod1/linux-image-5.17.8-xanmod1_5.17.8-xanmod1-0.git20220516.3789268_amd64.deb'
+_deb='https://github.com/xanmod/linux/releases/download/5.17.9-xanmod1/linux-image-5.17.9-xanmod1_5.17.9-xanmod1-0.git20220518.d88d798_amd64.deb'
 pkgname=linux-xanmod-bin
 pkgbase=linux-xanmod-bin
 _kernel=$(echo "$_deb" | sed 's/^.*linux-image-\([^_]*\).*$/\1/')
