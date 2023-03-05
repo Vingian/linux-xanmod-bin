@@ -1,10 +1,10 @@
 _deb='https://github.com/xanmod/linux/releases/download/6.1.15-xanmod1/linux-image-6.1.15-x64v3-xanmod1_6.1.15-x64v3-xanmod1-0.20230303.b9839d8_amd64.deb'
-pkgname=linux-xanmod-edge-bin
-pkgbase=linux-xanmod-edge-bin
+pkgname=linux-xanmod-bin
+pkgbase=linux-xanmod-bin
 _kernel=$(echo "$_deb" | sed 's/^.*linux-image-\([^_]*\).*$/\1/')
 pkgver=$(echo "$_kernel" | sed 's/^\([0-9.]*\).*$/\1/')
 pkgrel=$(echo "$_kernel" | sed 's/^.*xanmod\([0-9.]*\).*$/\1/')
-pkgdesc='Linux Xanmod - Latest Mainline (EDGE)'
+pkgdesc='Linux Xanmod'
 url='http://www.xanmod.org/'
 arch=(x86_64)
 license=(GPL2)
