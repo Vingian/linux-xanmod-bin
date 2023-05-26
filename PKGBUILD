@@ -1,4 +1,4 @@
-_deb='https://github.com/xanmod/linux/releases/download/6.1.22-xanmod1/linux-image-6.1.22-x64v3-xanmod1_6.1.22-x64v3-xanmod1-0.20230330.446c29a_amd64.deb'
+_deb='https://github.com/xanmod/linux/releases/download/6.1.30-xanmod1/linux-image-6.1.30-x64v3-xanmod1_6.1.30-x64v3-xanmod1-0.20230524.0edf0663_amd64.deb'
 pkgname=linux-xanmod-bin
 pkgbase=linux-xanmod-bin
 _kernel=$(echo "$_deb" | sed 's/^.*linux-image-\([^_]*\).*$/\1/')
